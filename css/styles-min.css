@@ -1,13 +1,6 @@
 /*styles*/
-html {
-  background: #9aadbf;
-  font-family: 'helvetica neue';
-  text-align: center;
-  font-size: 10px; }
-
 body {
   margin: 0;
-  font-size: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,39 +10,42 @@ body {
   min-height: 100vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  background: #9aadbf;
+  font-family: 'helvetica neue';
+  text-align: center; }
 
 h1 {
-  color: #7cafc4;
+  color: #feb47b;
   text-transform: uppercase; }
 
 #digital {
   display: none;
   font-size: 4em;
-  background: #7cafc4;
-  color: #ffad05;
+  background: #43C6AC;
+  color: white;
   width: 30rem;
   height: 8rem;
-  border: 20px solid #fcff4b;
+  border: 20px solid #feb47b;
   border-radius: 3px;
   margin: 50px auto;
   position: relative;
   padding: 2rem;
-  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #5995ed, inset 0 0 10px #0ff389, 0 0 10px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px white, inset 0 0 10px white, 0 0 10px rgba(0, 0, 0, 0.2); }
 
 #analog {
   display: block; }
 
 .clock {
-  background: #7cafc4;
+  background: #43C6AC;
   width: 30rem;
   height: 30rem;
-  border: 20px solid #fcff4b;
+  border: 40px solid #feb47b;
   border-radius: 3px;
   margin: 50px auto;
   position: relative;
   padding: 2rem;
-  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #5995ed, inset 0 0 10px #0ff389, 0 0 10px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px white, inset 0 0 10px white, 0 0 10px rgba(0, 0, 0, 0.2); }
 
 .clock-face {
   position: relative;
@@ -62,7 +58,7 @@ h1 {
 .hand {
   width: 50%;
   height: 6px;
-  background: #ffad05;
+  background: white;
   position: absolute;
   top: 50%;
   -webkit-transform-origin: 100%;

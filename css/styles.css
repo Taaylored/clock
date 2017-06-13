@@ -15,7 +15,9 @@ body {
 h1 {
     color: #feb47b;
     text-transform: uppercase;
+    padding: 10px;
 }
+
 
 #digital {
     display: none;
